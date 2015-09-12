@@ -1,4 +1,6 @@
-﻿4. Git Command
+﻿1.Start Project
+ 1.1 ทำข้อตกลงร่วมกัน Stucture  File  Ignore
+4. Git Command
    Command Pattern : git <command> <options>
    4.1 Local Git
 	-git init
@@ -6,5 +8,4 @@
 	-git config
 	-git add
 	-git commit
-	-git log	
-	
+	-git log
