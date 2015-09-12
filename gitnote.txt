@@ -4,7 +4,7 @@
 	-อะไรที่ควรไม่เอาขึ้น Repo (gitignore)
 	-กรณีที่แบ่งเป็นหลาย Tier ไม่ควรแยก Repo ควรรวมไว้เป็น Repo เดียว
 2.Branch
- 2.1 Tank
+ 2.1 Trunk
  2.2 branch
  2.3 Tag
 3.Merge Code
@@ -22,7 +22,6 @@
 	-git commit -m "<commit_message>" (commit การเปลี่ยนแปลงไปยัง local repository)
 	-git log (ดู history log ของ repository)
    5.2 Remote Git
-	-git remote add <remote_repository_name> <branch_name>
-	-git pull
-	-git push
-
+	-git remote add <remote_repository_name> <from_branch_name>
+	-git pull <remote_repository_name> <to_branch_name>(ดึงการเปลี่ยนที่ remote repository มายัง local repository)
+	-git push <remote_repository_name> <from_branch_name>
