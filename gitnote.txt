@@ -13,7 +13,8 @@
 5. Git Command
    Command Pattern : git <command> <options>
    5.1 Local Git
-	-git init
+	-git  (คำสั่ง)  (param)
+	-git init (หรือระบุ Directory)
 	-git config <options> (ตั้งค่าต่างๆ)
 		ex.-git config --global user.name “name”
         	   -git config —global user.email “email"
