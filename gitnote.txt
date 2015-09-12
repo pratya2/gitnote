@@ -26,3 +26,6 @@
 	-git remote add <remote_repository_name> <from_branch_name>
 	-git pull <remote_repository_name> <to_branch_name>(ดึงการเปลี่ยนที่ remote repository มายัง local repository)
 	-git push <remote_repository_name> <from_branch_name>
+
+Reference
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
