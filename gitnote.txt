@@ -1,3 +1,10 @@
-4. Git Command ==
+﻿4. Git Command
    Command Pattern : git <command> <options>
+   4.1 Local Git
+	-git init
+	-git status 
+	-git config
+	-git add
+	-git commit
+	-git log	
 	
