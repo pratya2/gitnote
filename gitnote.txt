@@ -1,5 +1,11 @@
 ﻿1.Start Project
  1.1 ทำข้อตกลงร่วมกัน Stucture  File  Ignore
+2.Branch
+ 2.1 Tank
+ 2.2 branch
+ 2.3 Tag
+3.Merge Code
+ 3.1 push code แบ่งงานเป็นส่วนทำบ่อยๆ มีโอกาส rollback code ได้ง่ายกว่า
 4. Git Command
    Command Pattern : git <command> <options>
    4.1 Local Git
