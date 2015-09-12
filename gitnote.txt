@@ -4,8 +4,12 @@
    Command Pattern : git <command> <options>
    4.1 Local Git
 	-git init
-	-git status 
-	-git config
-	-git add
-	-git commit
-	-git log
+	-git config <options> (ตั้งค่าต่างๆ)
+	-git status (ดูความเปลี่ยนแปลงที่เกิดขึ้นใน repository ทั้งหมด) 
+	-git add <file_name> (add file ที่มีการเปลี่ยนแปลงไปยัง git cache เพื่อทำการ commit ต่อไป)
+	-git commit -m "<commit_message>" (commit การเปลี่ยนแปลงไปยัง local repository)
+	-git log (ดู history log ของ repository)
+   4.2 Remote Git
+	-git remote add <remote_repository_name> <branch_name>
+	-git pull
+	-git push
