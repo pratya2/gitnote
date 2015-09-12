@@ -1,10 +1,18 @@
 ﻿1.Start Project
  1.1 ทำข้อตกลงร่วมกัน Stucture  File  Ignore
+2.Branch
+ 2.1 Tank
+ 2.2 branch
+ 2.3 Tag
+3.Merge Code
+ 3.1 push code แบ่งงานเป็นส่วนทำบ่อยๆ มีโอกาส rollback code ได้ง่ายกว่า
 4. Git Command
    Command Pattern : git <command> <options>
    4.1 Local Git
 	-git init
 	-git config <options> (ตั้งค่าต่างๆ)
+		ex.-git config --global user.name “name”
+        	   -git config —global user.email “email"
 	-git status (ดูความเปลี่ยนแปลงที่เกิดขึ้นใน repository ทั้งหมด) 
 	-git add <file_name> (add file ที่มีการเปลี่ยนแปลงไปยัง git cache เพื่อทำการ commit ต่อไป)
 	-git commit -m "<commit_message>" (commit การเปลี่ยนแปลงไปยัง local repository)
@@ -13,3 +21,4 @@
 	-git remote add <remote_repository_name> <branch_name>
 	-git pull
 	-git push
+
